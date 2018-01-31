@@ -1,0 +1,20 @@
+h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+#content1{
+    background-color:lightskyblue;
+    height: auto;
+    width: auto;
+}
+#content2{
+    background-color:white;
+    height: auto;
+    width: auto;
+}
