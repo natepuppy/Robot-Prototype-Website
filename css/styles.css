@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 h1{
     font-size: 40px;
     color: white;
@@ -24,6 +25,11 @@ h2{
 #outer{
 	position:fixed;
 	background-color: red;
+=======
+#outer {
+	position:fixed;
+	background-color: black;
+>>>>>>> 13b1823101b60ef2a1db812f9c8b9143b41c3125
 	top: 0;
 	left: 0;
 	width: 100%;
@@ -34,15 +40,29 @@ h2{
 	height: 100%;
 	margin: 0 auto;
 	position: relative;
+<<<<<<< HEAD
 	background-color: blue;
 	display: block;
+=======
+	background-color: black;
+>>>>>>> 13b1823101b60ef2a1db812f9c8b9143b41c3125
 
 }
 
 img.front-page {
+<<<<<<< HEAD
 	margin: 10%;
 	margin: 0 auto;
 	display: block;
 	top: 10%;
 
+=======
+	margin-top: 20%;
+	width: 80%;
+}
+
+a.front-image:hover {
+
+	
+>>>>>>> 13b1823101b60ef2a1db812f9c8b9143b41c3125
 }
