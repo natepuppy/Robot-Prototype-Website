@@ -9,17 +9,16 @@ h2{
     text-align: center;
 }
 #content1{
-    background-color:lightskyblue;
     height: auto;
     width: auto;
 }
 #content2{
-    background-color:white;
     height: auto;
     width: auto;
 }
-body{
-    background-color: white;
+#content3{
+    height: auto;
+    width: auto;
 }
 
 .image img {
