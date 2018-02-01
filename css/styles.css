@@ -1,33 +1,23 @@
 
 
-#outer {
-	position:fixed;
-	background-color: black;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-#inner {
-	width: 50%;
-	height: 100%;
-	margin: 0 auto;
-	position: relative;
-	background-color: black;
+
+
+
+body {
+
+  background-image: url("../pictures/buddy100.jpg");
 }
 
 img.front-page {
-	margin-top: 20%;
-	width: 50%;
+  margin-top: 20%;
+  width: 50%;
 }
+/*
+img a:hover {
 
-a.front-image:hover {
+}*/
 
-
-<<<<<<< HEAD
-}
-
-img.front-page {
+.front-page {
    position:fixed;
    /*element can move on the screen (only screen, not page)*/
 
@@ -37,24 +27,68 @@ img.front-page {
    max-width: 300px;
    /*set the top left corner of the element on the center of the screen*/
 
-   transform:translate(-50%,-50%);}
-   /*reposition element center with screen center*/
-
-=======
->>>>>>> 3bfd0760c642742588e7b8ebcda829eb46db0964
-}
-
-img.front-page {
-   position:fixed;
-   /*element can move on the screen (only screen, not page)*/
-
-   left: 50%;
-   top: 10%;
-   min-width: 100px;
-   max-width: 300px;
-   /*set the top left corner of the element on the center of the screen*/
-
-   transform:translate(-50%,-50%);}
+   transform: translate(-50%,-50%);
    /*reposition element center with screen center*/
 
 }
+
+.front-page:hover {
+  visibility: visible;
+    opacity: 1;
+}
+
+#banner {
+  width: 100%;
+  height: 20%;
+  background-color: #b3ffff;
+}
+
+
+
+
+
+
+
+
+
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li.menu {
+    float: right;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+li.logo {
+    float: left;
+    font-family: cursive;
+    padding-left: 5%;
+    font-size: 150%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #b3ffff;
+    font-size: 110%;
+}
+
+
+
+
+
+
+
+
+
