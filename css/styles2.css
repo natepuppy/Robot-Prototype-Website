@@ -14,7 +14,36 @@ h2{
     width: auto;
 }
 #content2{
-    background-color:white;
+    background-color:black;
     height: auto;
     width: auto;
+}
+body{
+    background-color: black;
+}
+
+.image img {
+
+   width: 100%;
+
+
+}
+
+.portfolio {
+
+   display: grid;
+
+
+   grid-template: auto auto auto / 1fr 1fr 1fr;
+
+
+   grid-column-gap: 20px;
+
+
+   grid-row-gap: 10px;
+
+
+   padding-top: 40px;
+
+
 }
