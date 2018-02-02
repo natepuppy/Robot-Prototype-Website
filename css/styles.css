@@ -1,10 +1,8 @@
-
-
-
-
-
 body.index-page {
   background-image: url("../pictures/buddy100.jpg");
+  background-repeat: no-repeat;
+  background-color: black;
+
 }
 
 img.front-page {
@@ -19,7 +17,7 @@ img.logo {
 
 
 .front-page {
-   position:fixed;
+   position: absolute;
    /*element can move on the screen (only screen, not page)*/
 
    left: 50%;
@@ -85,11 +83,104 @@ li a:hover {
     font-size: 110%;
 }
 
+#content4{
+    padding-top: 1000px;
+    height: auto;
+    width: auto;
+
+}
+
+.portfolio2 {
+
+   display: grid;
 
 
+   grid-template: auto auto auto / 1fr 1fr 1fr;
 
 
+   grid-column-gap: 20px;
 
 
+   grid-row-gap: 10px;
 
 
+   padding-top: 700px;
+
+}
+
+
+.information {
+
+   display: grid;
+
+
+   grid-template: auto auto auto / 1fr 1fr 1fr;
+
+
+   grid-column-gap: 20px;
+
+
+   grid-row-gap: 10px;
+
+
+   padding-top: 80px;
+
+}
+footer {
+    padding: 4em;
+    color: white;
+    background-color: black;
+    clear: left;
+    text-align: center;
+} 
+
+a.footer {
+    color: white;
+    font-size: 100%;
+}
+
+
+ /* For the Contact form */
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 2em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+label {
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+    color: white;
+}
+
+input, textarea {
+    font: 1em sans-serif;
+    width: 400px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
+
+input:focus, textarea:focus {
+    border-color: green;
+}
+
+textarea {
+    vertical-align: top;
+    height: 5em;
+}
+
+.button {
+    padding-left: 90px; 
+}
+
+button {
+    margin-left: .5em;
+}
